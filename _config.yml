@@ -44,7 +44,7 @@ titlecase: true
 # Site owner
 owner:
   name: Jeff Coggshall
-  avatar: pic5grab1.png
+  avatar: pic5grab1.PNG
   bio: "Data scientist at Clearstead"
   email: neutralsphinx@gmail.com
   disqus-shortname:
