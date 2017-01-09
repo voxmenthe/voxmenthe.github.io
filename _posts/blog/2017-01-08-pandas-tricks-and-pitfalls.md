@@ -7,10 +7,10 @@ excerpt:
 tags: [python, pandas, munging]
 image:
   feature:
-date: 2016-07-15T11:42:00-00:00
+date: 2017-08-15T10:31:00-00:00
 ---
 
-Data munging is the least sexiest part of <abbr title="Data Science">"the sexiest job of the 21st century"</abbr>. According to authoritative popular sources like [@BigDataBorat](https://twitter.com/BigDataBorat), data scientists spend 80% of their time cleaning up data. So we need to be really good at it!
+Data munging is an occasionally underestimated but essential part of the data analysis process. Data can sometimes be messy, and machine learning algorithms can often be finicky about the format they need for their data. 
 
 [pandas](http://pandas.pydata.org/) is an awesome python library for manipulating any data that fits in a spreadsheet-like format.  If you're familiar with R, it's the R dataframes concept implemented in Python. Since the goal of data munging in data science is often to generate a matrix to be fed into a machine learning model, `pandas` is a valuable tool to data scientists who use python.
 
