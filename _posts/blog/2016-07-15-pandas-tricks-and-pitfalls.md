@@ -16,9 +16,7 @@ Data munging is the least sexiest part of <abbr title="Data Science">"the sexies
 
 [pandas](http://pandas.pydata.org/) is an awesome python library for manipulating any data that fits in a spreadsheet-like format.  If you're familiar with R, it's the R dataframes concept implemented in Python. Since the goal of data munging in data science is often to generate a matrix to be fed into a machine learning model, `pandas` is a valuable tool to data scientists who use python.
 
-At the beginning of my time at Metis's Data Science Bootcamp, I decided to learn everything I could about pandas by diving deep into the docs. The docs are good, but there is a very steep learning curve and the syntax can be tricky sometimes. At Metis, I got the nickname "The Panda King" because I helped my fellow students solve their pandas problems. There was even a Slack emoji made (thanks Hannah):
-
-![The Slack emoji made by Hannah](../../images/panda_king.jpg)
+At the beginning of my time at Metis's Data Science Bootcamp, I decided to learn everything I could about pandas by diving deep into the docs. The docs are good, but there is a very steep learning curve and the syntax can be tricky sometimes. 
 
 ---
 
