@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Data Munging in Pandas - Tricks and Pitfalls
+title: Pandas - Basic to Intermediate Data Munging - Part 1
 modified:
 categories: blog/
 excerpt:
@@ -10,26 +10,26 @@ image:
 date: 2017-01-08T10:31:00-00:00
 ---
 
-Pandas is an awesome python library for manipulating data - easily as powerful as excel and much more flexible through its integration into the python ecosystem. If you're familiar with R, it's the R dataframes concept implemented in Python. 
+** Pandas is an awesome python library for manipulating data - easily as powerful as excel and much more flexible through its integration into the python ecosystem. If you're familiar with R, it's the R dataframes concept implemented in Python. **
 
-Pandas is especially helpful for cleaning data ('data munging'). Since the goal of data munging in data science is often to generate a matrix to be fed into a machine learning model, `pandas` is a valuable tool for data scientists who use python.
+** Pandas is especially helpful for cleaning data ('data munging'). Since the goal of data munging in data science is often to generate a matrix to be fed into a machine learning model, `pandas` is a valuable tool for data scientists who use python. **
 
-In this tutorial, which began primarily my own notes, I have tried to move as quickly as possible beyond the basics, for which there are many good tutorials already in existence, and try to create as many examples as possible for things I have found useful.
+** In this tutorial, which began primarily my own notes, I have tried to move as quickly as possible beyond the basics, for which there are many good tutorials already in existence, and try to create as many examples as possible for things I have found useful.**
 
 ---
 
-# Tutorial Part 1: Pandas Basics
+## Tutorial Part 1: Pandas Basics
 
-## Covered in Part 1:
+### Covered in Part 1:
 * Basic indexing and boolean indexing in pandas
 * Groupby - grouping data by features and criterion
-* Binning with `resample` and `cut`
+* Binning with 'resample' and 'cut'
 * MultiIndexing
-* Some plotting with `matplotlib` and `seaborn`
+* Some plotting with 'matplotlib' and 'seaborn'
 
 ---
 
-# This is an html rendering of the jupyter notebook which can also be downloaded from my github page here: [https://github.com/voxmenthe/pandas-tutorial-by-jeff-coggshall](https://github.com/voxmenthe/pandas-tutorial-by-jeff-coggshall)
+#### This is an html rendering of the jupyter notebook which can also be downloaded from my github page here: [https://github.com/voxmenthe/pandas-tutorial-by-jeff-coggshall](https://github.com/voxmenthe/pandas-tutorial-by-jeff-coggshall)
 
 ---
 
