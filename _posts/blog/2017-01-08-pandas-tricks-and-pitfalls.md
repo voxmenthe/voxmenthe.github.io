@@ -7,7 +7,7 @@ excerpt:
 tags: [python, pandas, munging]
 image:
   feature:
-date: 2017-08-15T10:31:00-00:00
+date: 2017-01-08T10:31:00-00:00
 ---
 
 Data munging is an occasionally underestimated but essential part of the data analysis process. Data can sometimes be messy, and machine learning algorithms can often be finicky about the format they need for their data. 
