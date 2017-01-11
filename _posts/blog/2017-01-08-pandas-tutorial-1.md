@@ -10,17 +10,18 @@ image:
 date: 2017-01-08T10:31:00-00:00
 ---
 
-##### Pandas is an awesome python library for manipulating data - easily as powerful as excel and much more flexible through its integration into the python ecosystem. If you're familiar with R, it's the R dataframes concept implemented in Python.
+#### Pandas is an awesome python library for manipulating data - easily as powerful as excel and much more flexible through its integration into the python ecosystem. If you're familiar with R, it's the R dataframes concept implemented in Python.
 
-##### Pandas is especially helpful for cleaning data ('data munging'). Since the goal of data munging in data science is often to generate a matrix to be fed into a machine learning model, `pandas` is a valuable tool for data scientists who use python. 
+#### Pandas is especially helpful for cleaning data ('data munging'). Since the goal of data munging in data science is often to generate a matrix to be fed into a machine learning model, `pandas` is a valuable tool for data scientists who use python. 
 
-##### In this tutorial, which began primarily my own notes, I have tried to move as quickly as possible beyond the basics, for which there are many good tutorials already in existence, and try to create as many examples as possible for things I have found useful.
+#### In this tutorial, which began primarily my own notes, I have tried to move as quickly as possible beyond the basics, for which there are many good tutorials already in existence, and try to create as many examples as possible for things I have found useful.
 
 ---
 
 ## Tutorial Part 1: Pandas Basics
 
 ### Covered in Part 1:
+
 
 #### Basic indexing and boolean indexing in pandas
 
