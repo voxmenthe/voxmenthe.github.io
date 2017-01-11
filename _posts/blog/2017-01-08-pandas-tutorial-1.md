@@ -21,11 +21,11 @@ date: 2017-01-08T10:31:00-00:00
 ## Tutorial Part 1: Pandas Basics
 
 ### Covered in Part 1:
-##### > Basic indexing and boolean indexing in pandas
-##### > Groupby - grouping data by features and criterion
-##### > Binning with 'resample' and 'cut'
-##### > MultiIndexing
-##### > Some plotting with 'matplotlib' and 'seaborn'
+##### * Basic indexing and boolean indexing in pandas
+##### * Groupby - grouping data by features and criterion
+##### * Binning with 'resample' and 'cut'
+##### * MultiIndexing
+##### * Some plotting with 'matplotlib' and 'seaborn'
 
 ---
 
