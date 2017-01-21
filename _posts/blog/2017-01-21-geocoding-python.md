@@ -28,7 +28,45 @@ date: 2017-01-21T12:44:00-00:00
 | 40.71117416000734   | -74.00016544998859  |
 | 40.68382604000925   | -73.97632328001441  |
 
-#### After putting it into a pandas dataframe, I just did:
+| latitude           | longitude          |
+|--------------------|--------------------|
+| 40.767272159966524 | -73.99392887997085 |
+| 40.71911551996054  | -74.0066666100157  |
+| 40.71117416000734  | -74.00016544998859 |
+| 40.68382604000925  | -73.97632328001441 |
+
+ GenerateDo not generate CSSCompact mode
+Result (click "Generate" to refresh) Copy to clipboard
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;}
+.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;}
+.tg .tg-yw4l{vertical-align:top}
+</style>
+<table class="tg">
+  <tr>
+    <th class="tg-yw4l">latitude</th>
+    <th class="tg-yw4l">longitude</th>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">40.767272159966524</td>
+    <td class="tg-yw4l">-73.99392887997085</td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">40.71911551996054</td>
+    <td class="tg-yw4l">-74.0066666100157</td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">40.71117416000734</td>
+    <td class="tg-yw4l">-74.00016544998859</td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">40.68382604000925</td>
+    <td class="tg-yw4l">-73.97632328001441</td>
+  </tr>
+</table>
+
+#### After putting the into a pandas dataframe, I just did:
 
 `pip install pygeocoder`
 
@@ -36,5 +74,5 @@ date: 2017-01-21T12:44:00-00:00
 
 #### And then set up a function to apply to my pandas dataframe:
 
-`def geofunc(lat,lon):
-    result = Geocoder.reverse_geocode(lat,lon).formatted_address`
+`def geofunc(lat,lon):`
+`   result = Geocoder.reverse_geocode(lat,lon).formatted_address`
