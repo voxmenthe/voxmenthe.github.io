@@ -31,8 +31,16 @@ git add
 git commit
 ```
 
+Code block using html type 1:
 <code>
 git status
 git add
 git commit
 </code>
+
+Code block using html table:
+<table>
+git status
+git add
+git commit
+</table>
