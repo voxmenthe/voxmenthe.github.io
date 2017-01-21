@@ -49,9 +49,11 @@ git commit
 
 Code block using html table:
 <table class="mytable">
-git status
-git add
-git commit
+<tr>
+the code block
+that is supposed to go
+inside this table block
+</tr>
 </table>
 
 pre code {
