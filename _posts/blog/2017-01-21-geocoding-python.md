@@ -30,8 +30,9 @@ date: 2017-01-21T12:44:00-00:00
 
 #### After putting it into a pandas dataframe, I just did:
 
-`pip install pygeocoder
-from pygeocoder import Geocoder`
+`pip install pygeocoder`
+
+`from pygeocoder import Geocoder`
 
 #### And then set up a function to apply to my pandas dataframe:
 
