@@ -30,3 +30,9 @@ git status
 git add
 git commit
 ```
+
+<code>
+git status
+git add
+git commit
+</code>
