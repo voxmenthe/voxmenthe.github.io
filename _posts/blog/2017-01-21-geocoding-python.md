@@ -9,7 +9,18 @@ image:
   feature:
 date: 2017-01-21T12:44:00-00:00
 ---
-
+<style>
+  .mytable 
+  {
+  background-color: #eee;
+  border: 1px solid #999;
+  display: block;
+  padding: 20px;
+  font-family:Consolas,Monaco,Liberation Mono,DejaVu Sans Mono,Bitstream Vera Sans Mono;
+  font-weight: bold;
+  }
+  .mytable .comment { background-color: #3a50d9; }
+</style>
 
 
 #### I recently had to extract zip codes from a set of points described by latitude and longitude to be able to analyze intra-borough traffic in New York. I also recently had to extract latitudes and longitudes from some street addresses to allow me to map the points in a visualization.
@@ -64,8 +75,11 @@ date: 2017-01-21T12:44:00-00:00
 
 `pip install pygeocoder`
 
-#### Import the geocoding functionality from pygeocoder:
-
+<table class="mytable">
+<tr> <td class="comment"># Import the geocoding functionality from pygeocoder</td> </tr>
+<tr> <td>from pygeocoder import Geocoder</td> </tr>
+<tr> <td></td> </tr>
+</table>
 ####`from pygeocoder import Geocoder`
 `**test**`
 

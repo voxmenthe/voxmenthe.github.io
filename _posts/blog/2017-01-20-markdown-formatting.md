@@ -30,6 +30,16 @@ git status
 git add
 git commit
 ```
+
+Code block in triple backtick quotes with extra spacing:
+```
+git status
+
+git add
+
+git commit
+```
+
 <style>
   .mytable 
   {
@@ -42,22 +52,9 @@ git commit
   }
 </style>
 
-Code block using html type 1:
-<code>
-git status
-git add
-git commit
-</code>
 
 Code block using html table:
 <table class="mytable">
 <tr> <td> 1: the code block that is supposed to go inside this table block </td> </tr>
 <tr> <td> 2: the code block that is supposed to go inside this table block </td> </tr>
 </table>
-
-pre code {
-  background-color: #eee;
-  border: 1px solid #999;
-  display: block;
-  padding: 20px;
-}
