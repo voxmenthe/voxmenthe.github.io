@@ -49,7 +49,7 @@ git commit
 
 Code block using html table:
 <table class="mytable">
-<tr> 1: the code block that is supposed to go inside this table block </tr>
+<tr> <td> 1: the code block that is supposed to go inside this table block </td> </tr>
 <tr> <td> 2: the code block that is supposed to go inside this table block </td> </tr>
 </table>
 
