@@ -30,6 +30,14 @@ git status
 git add
 git commit
 ```
+<style>
+pre code {
+  background-color: #eee;
+  border: 1px solid #999;
+  display: block;
+  padding: 20px;
+}
+</style>
 
 Code block using html type 1:
 <code>
@@ -44,3 +52,10 @@ git status
 git add
 git commit
 </table>
+
+pre code {
+  background-color: #eee;
+  border: 1px solid #999;
+  display: block;
+  padding: 20px;
+}
