@@ -19,7 +19,10 @@ date: 2017-01-21T12:44:00-00:00
   font-family:Consolas,Monaco,Liberation Mono,DejaVu Sans Mono,Bitstream Vera Sans Mono;
   font-weight: bold;
   }
-  .mytable .comment { background-color: #3a50d9; }
+  .mytable .comment { 
+    background-color: #ffccff;
+    font-style: italics;
+    font-color: yellow; }
 </style>
 
 
