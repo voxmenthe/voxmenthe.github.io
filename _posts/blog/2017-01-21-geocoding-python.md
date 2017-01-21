@@ -67,10 +67,10 @@ date: 2017-01-21T12:44:00-00:00
 #### Import the geocoding functionality from pygeocoder:
 
 ####`from pygeocoder import Geocoder`
-**`test`**
+`**test**`
 
 
 #### And then set up a function to apply to my pandas dataframe:
 
 `def geofunc(lat,lon):`
-`   result = Geocoder.reverse_geocode(lat,lon).formatted_address`
+    `result = Geocoder.reverse_geocode(lat,lon).formatted_address`
