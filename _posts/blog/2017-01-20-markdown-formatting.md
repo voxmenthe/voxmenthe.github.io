@@ -37,6 +37,8 @@ git commit
   border: 1px solid #999;
   display: block;
   padding: 20px;
+  font-family:Consolas,Monaco,Liberation Mono,DejaVu Sans Mono,Bitstream Vera Sans Mono;
+  font-weight: bold;
   }
 </style>
 
