@@ -21,6 +21,7 @@ date: 2017-01-21T12:44:00-00:00
   }
   .mytable .comment { 
     background-color: #ffccff;
+    font-family: Arial,Courier,sans-serif;
     font-style: italics;
     font-color: yellow; }
 </style>
@@ -78,14 +79,75 @@ date: 2017-01-21T12:44:00-00:00
 
 `pip install pygeocoder`
 
+#### First I used the following code to test things out:
+
 <table class="mytable">
 <tr> <td class="comment"># Import the geocoding functionality from pygeocoder</td> </tr>
 <tr> <td>from pygeocoder import Geocoder</td> </tr>
-<tr> <td></td> </tr>
+<tr></tr>
+<tr> <td class="comment">#Feed in a latitude and longitude to see what we get</td> </tr>
+<tr>mylocation = Geocoder.reverse_geocode(df.loc[0,'latitude'],df.loc[0,'longitude']</tr>
+<tr></tr>
+<tr> <td class="comment">#This returns a geocoder object with the info inside it</td> </tr>
+<tr> <td>mylocation</td> </tr>
 </table>
-####`from pygeocoder import Geocoder`
-`**test**`
 
+#####<pygeolib.GeocoderResult at 0x7fabd87b9320>
+
+<table class="mytable">
+<tr> <td class="comment">#To see ALL of the information encoded inside</td> </tr>
+<tr> <td class="comment">#Use the <strong>raw</strong> attribute</td> </tr>
+<tr> <td>mylocation.raw</td> </tr>
+</table>
+
+[{
+    'address_components': [{'long_name': '603-609',
+    'short_name': '603-609',
+    'types': ['street_number']},
+   {'long_name': 'West 52nd Street',
+    'short_name': 'W 52nd St',
+    'types': ['route']},
+   {'long_name': 'New York County',
+    'short_name': 'New York County',
+    'types': ['administrative_area_level_2', 'political']},
+   {'long_name': 'New York',
+    'short_name': 'NY',
+    'types': ['administrative_area_level_1', 'political']},
+   {'long_name': 'United States',
+    'short_name': 'US',
+    'types': ['country', 'political']},
+   {'long_name': '10019', 'short_name': '10019', 'types': ['postal_code']}],
+  'formatted_address': '603-609 W 52nd St, New York, NY 10019, USA',
+  'geometry': {'bounds': {'northeast': {'lat': 40.7676057, 'lng': -73.9938645}
+  
+  etc.
+  
+  ]}]
+
+#### We can then access specific attributes as follows:
+
+<table class="mytable">
+<tr> <td class="comment">#Get the postal code:</td> </tr>
+<tr>mylocation.postal_code</tr>
+</table>
+
+'10019'
+
+<table class="mytable">
+<tr> <td class="comment">#Get the street address:</td> </tr>
+<tr>mylocation.street_address</tr>
+</table>
+
+''
+
+#### There was nothing in that field, but in this instance, I had an alternative field:
+
+<table class="mytable">
+<tr> <td class="comment">#Get the street address using a different field:</td> </tr>
+<tr>mylocation.formatted_address</tr>
+</table>
+
+'603-609 W 52nd St, New York, NY 10019, USA'
 
 #### And then set up a function to apply to my pandas dataframe:
 
