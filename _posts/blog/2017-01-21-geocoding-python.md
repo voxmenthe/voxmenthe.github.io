@@ -26,10 +26,8 @@ date: 2017-01-21T12:44:00-00:00
     font-size: 8; }
   .mytable .code {
     padding-right: 10px 
-    background-color: #ffccff;
     font-family:Consolas,Monaco,Liberation Mono,DejaVu Sans Mono,Bitstream Vera Sans Mono;
     font-weight: bold;
-    font-style: italic;
     font-color: black;
     font-size: 18; }
 </style>
@@ -91,13 +89,13 @@ date: 2017-01-21T12:44:00-00:00
 
 <table class="mytable">
 <tr> <td class="comment"># Import the geocoding functionality from pygeocoder</td> </tr>
-<tr> <td>from pygeocoder import Geocoder</td> </tr>
+<tr> <td class="code">from pygeocoder import Geocoder</td> </tr>
 <tr><td></td></tr>
 <tr> <td class="comment">#Feed in a latitude and longitude to see what we get</td> </tr>
-<tr><td>mylocation = Geocoder.reverse_geocode(df.loc[0,'latitude'],df.loc[0,'longitude']</td></tr>
+<tr><td class="code">mylocation = Geocoder.reverse_geocode(df.loc[0,'latitude'],df.loc[0,'longitude']</td></tr>
 <tr></tr>
 <tr> <td class="comment">#This returns a geocoder object with the info inside it</td> </tr>
-<tr> <td>mylocation</td> </tr>
+<tr> <td class="code">mylocation</td> </tr>
 </table>
 
 <pygeolib.GeocoderResult at 0x7fabd87b9320>
@@ -105,7 +103,7 @@ date: 2017-01-21T12:44:00-00:00
 <table class="mytable">
 <tr> <td class="comment">#To see ALL of the information encoded inside</td> </tr>
 <tr> <td class="comment">#Use the <strong>raw</strong> attribute</td> </tr>
-<tr> <td>mylocation.raw</td> </tr>
+<tr> <td class="code">mylocation.raw</td> </tr>
 </table>
 
 [{
