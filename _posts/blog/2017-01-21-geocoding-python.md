@@ -86,9 +86,9 @@ date: 2017-01-21T12:44:00-00:00
 <table class="mytable">
 <tr> <td class="comment"># Import the geocoding functionality from pygeocoder</td> </tr>
 <tr> <td>from pygeocoder import Geocoder</td> </tr>
-<tr></tr>
+<tr><td></td></tr>
 <tr> <td class="comment">#Feed in a latitude and longitude to see what we get</td> </tr>
-<tr>mylocation = Geocoder.reverse_geocode(df.loc[0,'latitude'],df.loc[0,'longitude']</tr>
+<tr><td>mylocation = Geocoder.reverse_geocode(df.loc[0,'latitude'],df.loc[0,'longitude']</td></tr>
 <tr></tr>
 <tr> <td class="comment">#This returns a geocoder object with the info inside it</td> </tr>
 <tr> <td>mylocation</td> </tr>
