@@ -16,9 +16,6 @@ date: 2017-01-21T12:44:00-00:00
   border: 1px solid #999;
   display: block;
   padding: 20px;
-  font-family:Consolas,Monaco,Liberation Mono,DejaVu Sans Mono,Bitstream Vera Sans Mono;
-  font-weight: bold;
-  font-size: 18;
   }
   .mytable .comment {
     padding-right: 30px 
@@ -27,6 +24,14 @@ date: 2017-01-21T12:44:00-00:00
     font-style: italic;
     font-color: yellow;
     font-size: 8; }
+  .mytable .code {
+    padding-right: 10px 
+    background-color: #ffccff;
+    font-family:Consolas,Monaco,Liberation Mono,DejaVu Sans Mono,Bitstream Vera Sans Mono;
+    font-weight: bold;
+    font-style: italic;
+    font-color: black;
+    font-size: 18; }
 </style>
 
 
