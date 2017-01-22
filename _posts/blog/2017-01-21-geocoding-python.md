@@ -18,12 +18,14 @@ date: 2017-01-21T12:44:00-00:00
   padding: 20px;
   font-family:Consolas,Monaco,Liberation Mono,DejaVu Sans Mono,Bitstream Vera Sans Mono;
   font-weight: bold;
+  font-size: 14;
   }
   .mytable .comment { 
     background-color: #ffccff;
     font-family: Arial,Courier,sans-serif;
-    font-style: italics;
-    font-color: yellow; }
+    font-style: italic;
+    font-color: yellow;
+    font-size: 11; }
 </style>
 
 
