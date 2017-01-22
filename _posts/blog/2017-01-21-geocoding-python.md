@@ -9,16 +9,20 @@ image:
   feature:
 date: 2017-01-21T12:44:00-00:00
 ---
+
+Random stuff  
+padding: 20px;
+
 <style>
   .mytable 
   {
   background-color: #eee;
   border: 1px solid #999;
   display: block;
-  padding: 20px;
   }
   .mytable .comment {
-    padding-right: 30px 
+    padding-right: 30px
+    padding-top: 20px;
     background-color: #ffccff;
     font-family: Arial,Courier,sans-serif;
     font-style: italic;
