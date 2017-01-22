@@ -23,13 +23,13 @@ date: 2017-01-21T12:44:00-00:00
     font-family: Arial,Courier,sans-serif;
     font-style: italic;
     font-color: yellow;
-    font-size: 8; }
+    font-size: 6; }
   .mytable .code {
     padding-right: 10px 
     font-family:Consolas,Monaco,Liberation Mono,DejaVu Sans Mono,Bitstream Vera Sans Mono;
     font-weight: bold;
     font-color: black;
-    font-size: 18; }
+    font-size: 20; }
 </style>
 
 
