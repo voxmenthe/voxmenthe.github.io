@@ -20,7 +20,8 @@ date: 2017-01-21T12:44:00-00:00
   font-weight: bold;
   font-size: 18;
   }
-  .mytable .comment { 
+  .mytable .comment {
+    padding-right: 30px 
     background-color: #ffccff;
     font-family: Arial,Courier,sans-serif;
     font-style: italic;
@@ -155,3 +156,7 @@ date: 2017-01-21T12:44:00-00:00
 
 `def geofunc(lat,lon):`
     `result = Geocoder.reverse_geocode(lat,lon).formatted_address`
+
+
+
+#### One thing to bear in mind is that the Google Maps API only allows 2500 geolocation requests per day, though you can pay for more.
