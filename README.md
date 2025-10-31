@@ -14,6 +14,7 @@ This repository backs <https://voxmenthe.github.io>. It now uses a small, custom
    ```
 3. Run the development server.
    ```bash
+   bundle exec jekyll build
    bundle exec jekyll serve --livereload
    ```
 
