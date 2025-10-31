@@ -1,0 +1,21 @@
+<header class="site-header">
+  <div class="site-header__meta">
+    <a class="site-title" href="{{ '/' | relative_url }}">{{ site.title }}</a>
+    {% if site.tagline %}
+      <p class="site-tagline">{{ site.tagline }}</p>
+    {% endif %}
+  </div>
+  {% if site.navigation %}
+    <nav aria-label="Main">
+      <ul class="site-nav">
+        {% for item in site.navigation %}
+          <li>
+            <a href="{{ item.path | relative_url }}" {% if page.url == item.path %}aria-current="page"{% endif %}>
+              {{ item.label }}
+            </a>
+          </li>
+        {% endfor %}
+      </ul>
+    </nav>
+  {% endif %}
+</header>

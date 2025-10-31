@@ -1,78 +1,64 @@
-# Site wide configuration
+title: Vox Menthe
+tagline: Notes on data, systems, and learning in public.
+lang: en
+timezone: America/New_York
+url: https://voxmenthe.github.io
+baseurl: ""
+permalink: /:title/
 
-title:            Jeff Coggshall's Blog
-locale:           en_US
-url: //voxmenthe.github.io
-
-
-# Jekyll configuration
-
-permalink:   /:categories/:title/
-markdown:    kramdown
+markdown: kramdown
 highlighter: rouge
-sass:
-  sass_dir: _sass
-  style: compressed
-gems:
-  - jekyll-sitemap
-  - jekyll-gist
-
 kramdown:
   input: GFM
-  auto_ids: true
-  footnote_nr: 1
-  entity_output: as_char
-  toc_levels: 1..6
-  enable_coderay: false
-  syntax_highlighter_opts:
-    default_lang: python
+  hard_wrap: false
+  smart_quotes: lsquo,rsquo,ldquo,rdquo
 
-# Octopress
+collections:
+  posts:
+    output: true
 
-# Default extensions
-post_ext: md
-page_ext: md
+navigation:
+  - label: Posts
+    path: /
+  - label: About
+    path: /about/
 
-# Found in _templates/
-post_layout: post
-page_layout: page
-
-# Format titles with titlecase?
-titlecase: true
-
-
-# Site owner
-owner:
+author:
   name: Jeff Coggshall
-  avatar: pic5grab1.PNG
-  bio: "Data scientist at Clearstead"
   email: neutralsphinx@gmail.com
-  disqus-shortname:
-  twitter: voxmenthe
-  facebook: 
-  google:
-    plus: #username
-    analytics:
-    verify:
-    ad-client:
-    ad-slot:
-  bing-verify:
-  github: voxmenthe
-  stackoverflow: #123456/username   from a "http://stackoverflow.com/users/123456/username" link
-  linkedin: https://www.linkedin.com/in/jeffcoggshall
-  xing: #username
-  instagram: #username
-  lastfm: #username
-  tumblr: #username
-  pinterest: #username
-  foursquare: #username
-  steam: #username
-  dribbble: #username
-  youtube: #username
-  soundcloud: #username
-  weibo: #username
-  flickr: #username
-  codepen: #username
+  links:
+    - label: GitHub
+      url: https://github.com/voxmenthe
+    - label: LinkedIn
+      url: https://www.linkedin.com/in/jeffcoggshall
 
-include: [".htaccess"]
-exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules", "Gemfile", "Gemfile.lock", "LICENSE", "README.md"]
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: post
+      author: Jeff Coggshall
+      comments: false
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: page
+
+exclude:
+  - infra
+  - node_modules
+  - vendor
+  - README.md
+  - LICENSE
+  - Gemfile.lock
+  - .idea
+
+sass:
+  style: compressed

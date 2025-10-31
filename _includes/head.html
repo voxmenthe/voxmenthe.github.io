@@ -1,0 +1,12 @@
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>
+  {% if page.title %}
+    {{ page.title | smartify }} · {{ site.title }}
+  {% else %}
+    {{ site.title }}{% if site.tagline %} · {{ site.tagline | strip }}{% endif %}
+  {% endif %}
+</title>
+{% seo %}
+<link rel="alternate" type="application/atom+xml" title="{{ site.title }} feed" href="{{ '/feed.xml' | relative_url }}">
+<link rel="stylesheet" href="{{ '/assets/css/site.css' | relative_url }}">
